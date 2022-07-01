@@ -1,0 +1,6 @@
+Sadia|123456789|sadia@gmail.com|2001-07-01|
+Tamanna|987456321|tamanna@gmail.com|2001-07-02|
+Bhitto|147852369|bhitto@gmail.com|2001-07-03|
+Leon|0123456789|leon@gmail.com|2001-07-04|
+Rimi|741258963|rimi@gmail.com|2002-07-07|Egypt
+
