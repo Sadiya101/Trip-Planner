@@ -10,7 +10,7 @@
 						<form>
 							
 								<h1><b><i><legend align="center">Hotel Info</legend></i></b></h1>
-								<table border="3" align="center">
+								<table border="2" align="center">
 									<tr>
 										<th>Hotel Name</th>
 										<th>Location</th>

@@ -9,25 +9,25 @@
 <body>
 		<form>
 			
-				<h1><b><i><legend align="center">Hotel Info</legend></i></b></h1>
-				<table border="3" align="center">
+				<h1><b><i><legend align="center">Restaurant Info</legend></i></b></h1>
+				<table border="2" align="center">
 					<tr>
-						<th>Hotel Name</th>
+						<th>Restaurant Name</th>
 						<th>Location</th>
 						<th>Link</th>
 					</tr>
 					<?php
 					
-						$file = fopen('HotelList.txt', 'r');
+						$file = fopen('Restaurants.txt', 'r');
 						while (!feof($file)) 
 						{
 							$Info=fgets($file);
 							if($Info!= null)
 							{
-								$hList = explode('|', $Info);
-								$Name = trim($hList[0]);
-								$location = trim($hList[1]);
-								$Link = trim($hList[2]);
+								$rList = explode('|', $Info);
+								$Name = trim($rList[0]);
+								$location = trim($rList[1]);
+								$Link = trim($rList[2]);
 								echo "<tr>";
 								echo "<td>".$Name."</td>";
 								echo "<td>".$location."</td>";
@@ -38,8 +38,8 @@
 						}
 					?>
 
-				</table>
-			
+				</table><br/>
+				<center><a href="Booking.php">Book Now</a></center>
 		</form>
 		
 </body>
