@@ -6,7 +6,7 @@
 <head>
 	<title>Show Available Packages </title>
 </head>
-<body>
+<body style="background:linear-gradient(to bottom, #ffffff 0%, #ccff99 100%);">
 		<form>
 			
 				<h1><b><i><legend align="center">	Available Packages</legend></i></b></h1>
@@ -19,6 +19,7 @@
 						<th>Hotels</th>
 						<th>Restaurants</th>
 						<th>Transport</th>
+					</tr>
 							
 					<?php
 					
@@ -50,12 +51,14 @@
 					?>
 
 				</table><br/>
-				    <center> <b>Liked any package? Book Now :</b>
-						<input type="Text" name="pName" value="" placeholder="Enter Package Name">
-						<a href="Booking.php">Book Now</a>
+				    <center> <b>Liked any package?</b>
+						<a href="PBooking.html">Book Now</a>
 					</center>
 			
 		</form>
+		<?php
+
+		?>
 		
 </body>
 </html>

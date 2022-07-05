@@ -6,7 +6,7 @@
 	<head>
 		<title>Search Restaurants</title>
 	</head>
-	<body>
+	<body style="background:linear-gradient(to bottom, #ffffff 0%, #ccff99 100%);">
 		<form method="post" action="ShowRInfo.php" enctype="">
 			<fieldset style="width: 400px; height: 150px; margin: 200px 600px 200px">
 					<h2 align="center"><b><i>Looking for Restaurants? Search Here!</i></b></h2>

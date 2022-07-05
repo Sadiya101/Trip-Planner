@@ -6,7 +6,7 @@
 	<head>
 		<title>Search Hotel </title>
 	</head>
-	<body>
+	<body style="background:linear-gradient(to bottom, #ffffff 0%, #ccff99 100%);">
 		<form method="post" action="ShowHInfo.php" enctype="">
 			<fieldset style="width: 350px; height: 150px; margin: 200px 600px 200px">
 					<h2 align="center"><b><i>Find Your Desired Hotels</i></b></h2>
@@ -17,17 +17,12 @@
 						    <td>
 						    	<input type="Text" name="F_Hotels" value="" >
 					    	    <input type="submit" name="Search" value="Search">
-					    	    
-
 						    </td>
 					    </tr>
 					    <tr>
 							<td></td>
 						    <td><a href="ShowHList.php"> See Available hotel information</a></td>
-					    </tr>
-					    
-
-					    
+					    </tr>  
 					</TABLE>
 			</fieldset>
 		</form>

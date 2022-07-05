@@ -2,12 +2,13 @@
 	<head>
 		<title>Booking</title>
 	</head>
-		<body >
-			<center><form method="post" action="Booking.php" enctype="">
-				<h1><b><i><legend> Book Now </legend></i></b></h1>
-				<fieldset style="width: 600px; height: 300px; margin: 00px 450px 200px">
+		<body style="background:linear-gradient(to bottom, #ffffff 0%, #ccff99 100%);">
+			<center><form method="post" action="PBooking.php" enctype="">
+				<h1><b><i><legend> Book Packages </legend></i></b></h1>
+				<fieldset style="width: 600px; height: 500px; margin: 00px 450px 200px">
 					
 					<TABLE>
+						<tr><td><h3><b><i><u>Personal Info:</u></i></b></h3></td></tr>
 						<tr>
 							<td><b> Name </b></td>
 						    <td><input type="Text" name="name" value="" ></td>
@@ -22,13 +23,14 @@
 						    <td><b>Contact no</b></td>
 						    <td><input type="Text" name="Contact" value="" ></td>
 					    </tr>
+					    <tr><td><h3><b><i><u><br/>Package Info:</u></i></b></h3></td></tr>
 					     <tr>
-						    <td><b>Hotel</b></td>
-						    <td><input type="Text" name="Hotel" value="" ></td>
+						    <td><b>Package Name</b></td>
+						    <td><input type="Text" name="PName" value="" ></td>
 					    </tr>
 					     <tr>
-						    <td><b>Restaurant</b></td>
-						    <td><input type="Text" name="Restaurant" value="" ></td>
+						    <td><b>Destination</b></td>
+						    <td><input type="Text" name="Des" value="" ></td>
 					    </tr>
 
 					    <tr>
@@ -37,8 +39,8 @@
 					    </tr>
 
 					    <tr>
-						    <td><b>Date</b></td>
-						    <td><input type="Date" name="Date" value="" ></td>
+					    	 <td><b>Date </b></td>
+						    <td><input type="Date" name="Date" value="" ></td>					    
 					    </tr>
 
 					    <tr>

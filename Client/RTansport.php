@@ -6,7 +6,7 @@
 	<head>
 		<title>Search Transport </title>
 	</head>
-	<body>
+	<body style="background:linear-gradient(to bottom, #ffffff 0%, #ccff99 100%);">
 		<form method="post" action="SearchedT.php" enctype="">
 			<fieldset style="width: 450px; height: 200px; margin: 200px 500px 200px">
 					<h2 align="center"><b><i>Find Transports Anytime</i></b></h2>

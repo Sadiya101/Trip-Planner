@@ -6,7 +6,7 @@
 <head>
 	<title>Show Reviews </title>
 </head>
-		<body>
+		<body  style="background:linear-gradient(to bottom, #ffffff 0%, #ccff99 100%);">
 			<form>
 				<h1><b><i><legend align="center">Show Reviews</legend></i></b></h1>
 				<table border="2" align="center">

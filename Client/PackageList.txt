@@ -3,3 +3,4 @@ Beli|Sajek|1day 1 night|1500BDT|Resort Rungrang|Hapang Tong |Hanif Poribahan|
 chill|Cox's Bazar|3days & 2nights |4000BDT|Mermaid Beach Resort|Salt Bistro|Shohag Travels|
 Hiking|Bandarban|2days & 1nights |2000BDT|Nilachol Nilambori Resort|Kalapata Restaurant|Hanif Poribahan|
 Nature|Sylhet|2days & 1nights |5000BDT|The Grand Palace|Panshi|Saudia Paribahan|
+Onigiri|Bandarban|4days 3 nights|3500BDT|Nilachol Nilambori Resort|Kalapata Restaurant|Hanif Poribahan|

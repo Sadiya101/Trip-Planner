@@ -1,0 +1,4 @@
+Sadia|010000000120|sadia@gmail.com|Seagull|chittagong|5|50000|
+Seagull|sadia@gmail.com|01000000012|Seagull|2|5000
+Seagull|sadia@gmail.com|01000000012|Seagull|2|5000
+Seagull|sadia@gmail.com|01000000012|Seagull|4|5000

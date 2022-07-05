@@ -2,14 +2,15 @@
 $name = $_POST['name'];
 $email = $_POST['Email'];
 $pass = $_POST['Password'];
+$Cpass= $_POST['Cpassword'];
 $dob = $_POST['dob'];
-//$Gender= $_POST['Gender'];
 $country = $_POST['Country'];
 $submit = $_POST['submit'];
+$counter = 0;
 
-if($name == null || $email == null || $pass == null)
+if($name == null || $email == null || $pass == null || $dob == null || $country == null || $Cpass==null )
 {
-	echo "Error! Empty field!!!";
+	echo "Error! Empty field!!!<br>";
 
 }
 
@@ -18,52 +19,63 @@ else
 	//Name
 	if($name == null || is_numeric($name[0]) || str_contains($name[0],' ') || str_contains($name[0],'$') || str_contains($name,'$') || str_contains($name,'*') )
 		{
-			echo "Invalid name";
+			$counter = 1;
+			echo "Invalid name <br>";
 
 		}
 
 	elseif(ctype_alpha($name[0])||str_contains($name,'-')||str_contains($name,'.'))
 		{
-			echo "Valid name";
-		
+			$counter;
 		}
 		
 	else{}
 		
 	
 	//Email
-	if(str_contains($email,'@')||str_contains($email,'+') || str_contains($email,'_')||str_contains($email,'.')|| $email[$i]== range("a", "z") ||$email[$i]== range("A", "Z") ||$email[$i]== range(0,9) || !str_contains($email,' '))
+	if(str_contains($email,'@')||str_contains($email,'+') || str_contains($email,'_')||str_contains($email,'.')|| ctype_alpha($email) ||is_numeric($email) || !str_contains($email,' '))
 	    {
-			echo "Valid email";
+			$counter;
 		}
 	else
 		{
-			echo "Invalid email";
+			$counter = 1;
+			echo "Inval!id email <br>";
 		}
-	
-
-	if(isset($dob) && isset($gender) && isset($country))
-	{
-		echo "Success";
-	}
-	else
-	{
-		echo "Empty field!!!";
-	}
 
     //Password
-		if ( str_contains($pass,'@')&& strlen($pass)>=8 ||str_contains($pass,'+') || str_contains($pass,'_')||str_contains($pass,'.')|| ctype_alpha($pass[$i])|| is_numeric($pass[$i])) 
+	if ( str_contains($pass,'@')&& strlen($pass)>=8 ||str_contains($pass,'+') || str_contains($pass,'_')||str_contains($pass,'.')|| ctype_alpha($pass)|| is_numeric($pass)) 
 		{
-			echo "Strong password";
+			$counter;
 		}
-		else 
+	else 
 		{
-			echo " Password field can not be empty";
+			$counter = 1;
+			echo "Invalid Password <br>";
 		}
 
-    $client = $name."|".$pass."|".$email."|".$dob."|".$country."\r\n";
-    $file=fopen('ClientList.txt', 'a');
-    fwrite($file, $client);
-    header('location:Login.html');   
+	//Confirm Password
+	if($pass==$Cpass)
+		{
+			$counter;
+		}
+	else
+		{
+			$counter = 1;
+			echo "Password didn't match <br>";
+		}
+
+    
+	if($counter==0)
+		{
+			$client = $name."|".$pass."|".$email."|".$dob."|".$country."\r\n";
+		    $file=fopen('ClientList.txt', 'a');
+		    fwrite($file, $client);
+		    header('location:Login.html');
+		}
+	else
+		{
+			header('location:Signup.html');
+		}
 }
 ?>

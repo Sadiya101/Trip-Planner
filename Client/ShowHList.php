@@ -6,16 +6,15 @@
 <head>
 	<title>Show Hotel Info</title>
 </head>
-<body>
+<body style="background:linear-gradient(to bottom, #ffffff 0%, #ccff99 100%);">
 		<form>
-			
-				<h1><b><i><legend align="center">Hotel Info</legend></i></b></h1>
-				<table border="2" align="center">
-					<tr>
-						<th>Hotel Name</th>
-						<th>Location</th>
-						<th>Link</th>
-					</tr>
+			<h1><b><i><legend align="center">Hotel Info</legend></i></b></h1>
+			<table border="2" align="center">
+				<tr>
+					<th>Hotel Name</th>
+					<th>Location</th>
+					<th>Link</th>
+				</tr>
 					<?php
 					
 						$file = fopen('HotelList.txt', 'r');
@@ -39,7 +38,7 @@
 					?>
 
 				</table><br/>
-				<center><a href="Booking.php">Book Now</a></center>
+				<center><a href="HBooking.html">Book Now</a></center>
 		</form>
 		
 </body>

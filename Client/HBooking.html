@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>Booking</title>
+	</head>
+		<body style="background:linear-gradient(to bottom, #ffffff 0%, #ccff99 100%);">
+			<center><form method="post" action="HBooking.php" enctype="">
+				<h1><b><i><legend> Book Your Desired Hotel </legend></i></b></h1>
+				<fieldset style="width: 600px; height: 500px; margin: 00px 450px 200px">
+					
+					<TABLE>
+						<tr><td><h3><b><i><u>Personal Info:</u></i></b></h3></td></tr>
+						<tr>
+							<td><b> Name </b></td>
+						    <td><input type="Text" name="name" value="" ></td>
+					    </tr>
+
+					    <tr>
+						    <td><b>Email</b></td>
+						    <td><input type="Email" name="Email" value="" ></td>
+					    </tr>
+
+					    <tr>
+						    <td><b>Contact no</b></td>
+						    <td><input type="Text" name="Contact" value="" ></td>
+					    </tr>
+					    <tr><td><h3><b><i><u><br/>Hotel Info:</u></i></b></h3></td></tr>
+					     <tr>
+						    <td><b>Hotel Name</b></td>
+						    <td><input type="Text" name="hName" value="" ></td>
+					    </tr>
+					     <tr>
+						    <td><b>Location</b></td>
+						    <td><input type="Text" name="Loc" value="" ></td>
+					    </tr>
+
+					    <tr>
+						    <td><b>No. of rooms</b></td>
+						    <td><input type="Number" name="Nroom" value="" ></td>
+					    </tr>
+
+					    <tr>
+						    <td><b>Room Type</b></td>
+						    <td>
+						    	<input type="checkbox" name="cbox" value="Single" >Single
+						    	<input type="checkbox" name="cbox" value="Double" >Double
+						    	<input type="checkbox" name="cbox" value="Delux" >Delux
+						    	<input type="checkbox" name="cbox" value="King" >King
+						    </td>
+					    </tr>
+
+					    <tr>
+						    <td><b>Total Amount</b></td>
+						    <td><input type="Number" name="tAmount" value="" ></td>
+					    </tr>
+
+					    <tr>
+						    <td><b>Payment Method</b></td>
+						    <td>
+						    	<input type="radio" name="pMethod" value="Bkash" >Bkash
+						    	<input type="radio" name="pMethod" value="Cards" >Cards
+						    	<input type="radio" name="pMethod" value="Paypal" >Paypal<br/>
+						    </td>
+					    </tr>
+					   
+						<tr>
+						    <td>
+						    	<center><input type="submit" name="Confirm" value="Confirm Booking"></center>
+						    </td>
+					    </tr>
+					    
+
+			        </TABLE>
+				</fieldset>
+			</form>
+		</center>
+	</body>
+</html>
+
+

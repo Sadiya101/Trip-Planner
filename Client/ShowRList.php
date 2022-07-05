@@ -6,7 +6,7 @@
 <head>
 	<title>Show Hotel Info</title>
 </head>
-<body>
+<body style="background:linear-gradient(to bottom, #ffffff 0%, #ccff99 100%);">
 		<form>
 			
 				<h1><b><i><legend align="center">Restaurant Info</legend></i></b></h1>
@@ -39,7 +39,7 @@
 					?>
 
 				</table><br/>
-				<center><a href="Booking.php">Book Now</a></center>
+				<center><a href="RBooking.html">Book Now</a></center>
 		</form>
 		
 </body>

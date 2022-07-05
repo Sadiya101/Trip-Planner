@@ -6,18 +6,16 @@
 			<head>
 				<title>Show Hotel Info</title>
 			</head>
-				<body>
+				<body style="background:linear-gradient(to bottom, #ffffff 0%, #ccff99 100%);">
 						<form>
 							
-								<h1><b><i><legend align="center">Hotel Info</legend></i></b></h1>
-								<table border="2" align="center">
-									<tr>
-										<th>Hotel Name</th>
-										<th>Location</th>
-										<th>Link</th>
-									</tr>
-								
-							
+							<h1><b><i><legend align="center">Hotel Info</legend></i></b></h1>
+							<table border="2" align="center">
+								<tr>
+									<th>Hotel Name</th>
+									<th>Location</th>
+									<th>Link</th>
+								</tr>	
 					<?php
 			            
                         $hName=$_POST['F_Hotels'];
@@ -30,7 +28,7 @@
 							$location = trim($hList[1]);
 							$Link = trim($hList[2]);
 					
-							if(trim($hList[0])== $hName)
+							if(strtolower(trim($hList[0])) == strtolower($hName))
 							{
 								echo "<tr>";
 							 	echo "<td>".$Name."</td>";
@@ -43,8 +41,8 @@
 						}
 					?>
 					</table>
-						</form>
-						
+					<center><br/><a href="HBooking.html">Book Now</a></center>
+					</form>
 				</body>
 			</html>
 				
