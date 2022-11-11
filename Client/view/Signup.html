@@ -1,0 +1,109 @@
+<html>
+<head>
+	<link rel="stylesheet" href="../asset/css/Signup.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Sign Up</title>
+</head>
+	<body>
+		<p>
+			<div class="header">
+				<center><h1><i><b>Trip Planner</b></i></h1></center>		
+  			</div>
+		</p>
+		<div class="container">
+		<div class="login-details">
+     	<div class="header">
+     		<center><h2>Sign Up</h2>
+        </div>
+		<center><form id="form" method="post" action="../controller/Check_Signup.php" enctype="multipart/form-data" onsubmit="return validateSignupForm()">
+				<TABLE>
+					<tr>
+					<div class="inputField">
+						<td><b><label  for="name"  >Name</label></b></td>
+					    <td><input id="name" type="Text" name="name" value="" onkeyup="nameCheck()" ></td>
+						<span id="errName" class="Uname" ></span>
+					</div>
+				    </tr>
+
+				    <tr>
+				    	<div class="inputField">
+			    		<td><b><label  for="Email"  >Email</label></b></td>
+					    <td><input  id="email" type="Email" name="Email" value="" onkeyup="emailCheck()" ></td>
+						<span id="errmail" class="Email" ></span>
+						</div>
+				    </tr>
+
+				    <tr>
+				    	<div class="inputField">
+				    	<td><b><label  for="DOB"  >DOB</label></b></td>
+					    <td><input  id="dob" type="date" name="dob" value="" onkeyup="dobCheck()"></td>
+						<span id="errdob"></span>
+						</div>
+				    </tr>
+
+				    <tr>
+				    	<div class="inputField">
+					    <td><b><label  for="Gender">Gender</label></b></td>
+					    <div id="gender" >
+					    <td><p>
+					    	<input type="radio" name="G" value="Male"  >Male
+						    <input type="radio" name="G" value="Female">Female
+						    <input type="radio" name="G" value="Others">Others
+					    </p></td>
+					     </div>
+					</div>
+				    </tr>
+
+				    <tr>
+				    	<div class="inputField"> 
+				    	<td><b><label  for="Country">Country</label></b></td>
+					    <td>
+					    	<div id= "country">
+					    	<select name="Country" class="dropdown" >
+					    		<option value="America"> America </option>
+							    <option value="Bangladesh"> Bangladesh </option>
+							    <option value="Canada"> Canada </option>
+							    <option value="Denmark"> Denmark </option>
+							    <option value="Egypt"> Egypt </option>
+							    <option value="France"> France </option>
+							</select>
+							</div>
+						</td>	
+					</div>
+				    </tr>
+				    <tr>
+				    	<td><b><label  for="Password">Password</label></b></td>
+					    <td><input id= "pass" type="Password" name="Password" value="" onkeyup="passCheck()" ></td>
+						<span id="errPass" class="Pass" ></span>
+				        </tr>
+
+				    </tr>
+
+				    <tr>
+				    	<td><b><label  for="Cpass">Confirm Passwor</label></b></td>
+					    <td>
+					    	<input id="cpass" type="Password" name="Cpassword" value="" onkeyup="cPassCheck()">
+							<span id="errCPass" class="Cpass" ></span>
+					    </td><br/>
+					</tr>
+					<tr>
+						<td><b><label for="File"> Upload your picture:</label></b> 
+						<input id="file" type="file" name="myfile" onclick="fileCheck()"></td> 
+						<span id="errFile"></span> 
+					</tr>
+					    <td> </td>
+					    <td>
+					    	<button type="submit" name="submit" value="Create Account">Create Account</button> 
+		                    <a id="Loginbutton" href="Login.html" class="sign-in" > Login </a>
+		  
+					    </td>
+
+				    </tr>
+			    </TABLE>    
+		</form>
+		</center>
+		<script src="../asset/js/Signup.js"></script>
+	</body>
+</html>

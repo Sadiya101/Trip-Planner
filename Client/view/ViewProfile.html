@@ -1,0 +1,30 @@
+
+
+<html>
+
+</head>
+    <body>
+      <form action="../controller/ViewProfile.php" method="post">
+      <h1 class="container-profile-left-h1">My Profile</h1>
+      <hr>    
+      <label  for="username">Name</label>
+      <input  type="text" value="Sadia" readonly> 
+      <p><?php echo $name; ?></p>
+      <label  for="email">Email</label>
+      <input  type="text" value="sadia@gmail.com" readonly> 
+      <p><?php echo $email; ?></p>
+      <label  for="DOB">DOB</label>
+      <input  type="text" value="2001-07-05" readonly> 
+      <p><?php echo $dob; ?></p>
+      <label  for="password">Password</label>
+      <input  type="password" value="123456789" readonly>
+      <p><?php echo $pass; ?></p>
+      <label  for="country">Country</label>
+      <input  type="text" value="Bangladesh" readonly>
+      <p><?php echo $country; ?></p>
+
+            
+    <a href="profile-edit-patient.php"></a>Edit Profile</a>
+  </form>
+</body>
+</html>

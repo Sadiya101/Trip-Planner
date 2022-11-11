@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Booking</title>
+		<link rel="stylesheet" href="../asset/css/NaviBar.css">
+		<link rel="stylesheet" href="../asset/css/HBooking.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+		integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+		<body>
+			<div class="navbar">
+				<a href="Logout.php">Logout</a>
+				<a  href="../view/ViewProfile.html">My profile</a>
+				<a href="Home.php">Home</a>	
+			</div>
+			<center><form method="post" action="../controller/HBooking.php" enctype="" onsubmit="return validateHbooking()">
+				<div class="container">
+				<div class="header">
+				<h1><b><i> Book Your Desired Hotel </i></b></h1>
+					<TABLE>
+						<div class="contents"></div>
+						<tr><td><h3><b><i><u>Personal Info:</u></i></b></h3></td></tr>
+						<tr>
+							<td><label  for="name">Name </label> </td>
+						    <td><input  id="name" type="Text" name="name" value="" onkeyup="nameCheck()" ></td>
+							<span id="errName" class="Uname" ></span>
+					    </tr>
+
+					    <tr>
+						    <td><label  for="email">Email</label></td>
+						    <td><input  id="email" type="Email" name="Email" value="" onkeyup="emailCheck()" ></td>
+							<span id="errmail" class="Email" ></span>
+					    </tr>
+
+					    <tr>
+						    <td><label  for="cNo">Contact no</label></td>
+						    <td><input  id="contact" type="Text" name="Contact" value="" onkeyup="conCheck()" ></td>
+							<span id="errcon" class="Con" ></span>
+					    </tr>
+					    <tr><td><h3><b><i><u><br/>Hotel Info:</u></i></b></h3></td></tr>
+					     <tr>
+						    <td><label  for="hName">Hotel Name</label></td>
+						    <td><input  id="hName" type="Text" name="hName" value="" onkeyup="hCheck()" ></td>
+							<span id="errHN" class="Hname" ></span>
+					    </tr>
+					     <tr>
+						    <td><label  for="loc">Location</label></td>
+						    <td><input  id="loc" type="Text" name="Loc" value="" ></td>
+					    </tr>
+
+					    <tr>
+						    <td><label  for="rooms">No. of rooms</label>></td>
+						    <td><input  id="nRoom" type="Number" name="Nroom" value="" onkeyup="rCheck()" ></td>
+							<span id="errR" class="Room" ></span>
+					    </tr>
+
+					    <tr>
+						    <td><label  for="rType">Room Type</label></td>
+						    <td><p>
+						    	<input type="checkbox" name="cbox" value="Single" >Single
+						    	<input type="checkbox" name="cbox" value="Double" >Double
+						    	<input type="checkbox" name="cbox" value="Delux" >Delux
+						    	<input type="checkbox" name="cbox" value="King" >King
+						    </p></td>
+					    </tr>
+
+					    <tr>
+						    <td><label  for="tAmount">Total Amount</label></td>
+						    <td>
+								<input  id="tAmount" type="Number" name="tAmount" value="" onkeyup="costCheck()" >
+								<span id="errCost" class="Cost" ></span>
+								<button id="confirm" type="submit" name="Confirm" value="Confirm Booking">Confirm Booking</button>
+							</td>
+					    </tr>
+					</div>
+			        </TABLE>
+				</div>
+			</div>
+			</form>
+	
+		</center>
+	<script src="../asset/js/HBooking.js"></script>
+	</body>
+</html>
+
+

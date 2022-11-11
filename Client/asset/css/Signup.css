@@ -1,0 +1,150 @@
+a{
+    display: block;
+}
+body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 98vh;
+        flex-direction: column;
+        background-image: linear-gradient(rgb(103 78 78 / 45%), rgb(24 13 13 / 56%)),
+        url(Crash_Landing_On_You_Iseltwald_011.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+label {
+  font-family: "Supreme";
+  font-size: 18px;
+  color: #fff;
+  display: block;
+}
+form {
+  margin-top: 20px;
+}
+.container {
+  margin-right: 15px;
+  background-color: rgb(0 0 0 / 34%);
+  padding: 0px 15px 10px 20px;
+  height: 500px;
+  width: 550px;
+  display: flex;
+}
+.dropdown{
+  height: 24px;
+  font-family: "Supreme";
+  font-size: 18px;
+  font-weight: 520;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.header h1 {
+  font-family: "Supreme";
+  color: #fff;
+  align-content: center;
+  padding: 0px 40px 0px 50px;
+  font-size: 40px;
+}
+.header h2 {
+  align-content: right;
+  font-family: "Supreme";
+  font-size: 30px;
+  color:white;
+}
+.sign-in{
+  display: inline-block;
+  padding: 10px 5px 2px 6px;
+  font-family: "Supreme";
+  font-size: 18px;
+  /* margin-top: 10px; */
+  color: #00FFFF;
+}
+ p{
+  width: 15%;
+  margin-right: 60px;
+  font-family: "Supreme";
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+}
+input {
+
+  width: 60%;
+  height: 24px;
+  padding: 2px 0px 5px 10px;
+  border-radius: 5px;
+  font-family: "Supreme";
+  font-size: 15px;
+  margin: 5px 0;
+  border-color: transparent;
+}
+input:focus {
+  outline: none;
+}
+ /* span {
+  position: absolute;
+  padding: auto; 
+  bottom: 450px;
+   right: 10px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+} */
+.Uname 
+{
+  position: absolute;
+  bottom: 420px;
+  left: 902px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+
+.Email 
+{
+  position: absolute;
+  bottom: 380px;
+  left: 902px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+.Pass 
+{
+  position: absolute;
+  bottom: 240px;
+  left: 902px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+.Cpass
+{
+  position: absolute;
+  bottom: 200px;
+  left: 902px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+i.fa-square-check{
+  color: rgb(79, 218, 139) ;
+  
+}
+button {
+    
+  text-align: justify;
+  width: 60%;
+  height: 25px;
+  display: inline-block;
+  padding: 0px 0px 8px 10px;
+ font-family: "Supreme";
+  font-size: 18px;
+  font-weight: 520;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  color:#00FFFF;
+  border-color: #fff;
+  background-color: transparent;
+}

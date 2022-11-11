@@ -1,0 +1,141 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a{
+    display: block;
+}
+body {
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 80vh;
+  width: 1550px;
+  height: 750px;
+  background-image: linear-gradient(rgb(103 78 78 / 45%), rgb(24 13 13 / 56%)),
+    url(a-honeymoon-destination..jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgb(0 0 0 / 34%);
+  padding: 2px 5px;
+  height: 750px;
+  width: 600px;
+  display: flex;
+}
+.login-details {
+  font-family: "Supreme";
+  padding: 8px;
+  color: #fff;
+  width: 100%;
+}
+.header h1 {
+  align-content: center;
+   padding: 20px 30px 70px 70px;
+   font-family: "Supreme";
+  font-size: 40px;
+}
+.header h2 {
+  align-content: right;
+  font-family: "Supreme";
+  font-size: 15px;
+  color:red;
+}
+form {
+  margin-top: 50px;
+}
+label {
+  font-family: "Supreme";
+  font-size: 25px;
+  color: #fff;
+  display: block;
+}
+.error{
+  position: absolute;
+  bottom: 380px;
+  right: 17px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+  
+}
+span {
+  position: absolute;
+  bottom: 450px;
+  right: 17px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+
+ i.fa-square-check{
+  color: rgb(79, 218, 139) ;
+  
+}
+input {
+  width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+  font-family: "Supreme";
+  font-size: 15px;
+  margin: 10px 0;
+  border-color: transparent;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 50%;
+  display: inline-block;
+  padding: 8px 20px 5px 15px;
+  /*margin-right: 50px*/
+ /* margin: 10px 80px ;*/
+ font-family: "Supreme";
+  font-size: 15px;
+  font-weight: 520;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  color: #00FFFF;
+  border-color: #fff;
+  background-color: transparent;
+}
+.forgot-password{
+    color: cyan;
+    font-family: "Supreme";
+    font-size: 18px;
+    margin: 13px 0px;
+}
+small{
+  font-family: "Supreme";
+  font-size: 20px;
+  color: #fff;
+  /* margin: -6px 0px; */
+  display: inline-block;
+  margin-top: 20px;
+}
+.sign-up{
+  display: inline-block;
+  padding: 10px 5px 2px 6px;
+  font-family: "Supreme";
+  font-size: 20px;
+  /* margin-top: 10px; */
+  color: #00FFFF;
+}
+.paragraph{
+  align-content: center;
+  padding: 5px 170px 160px;
+  font-family: "Supreme";
+  font-size: 50px;
+  color: #fff;
+
+}
+/*<p id="errName" style="color: #FF6C00 " > </p>
+<p id="errPass" style="color: #FF6C00" > </p>*/

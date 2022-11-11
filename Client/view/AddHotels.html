@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Hotel List</title>
+	</head>
+	<body>
+		<form method="POST" action="../controller/AddHotels.php">
+			<fieldset style="width: 600px;height:200px; margin: 180px 460px 400px">
+					<h2 align="center"><b><i>Add Hotels</i></b></h2>
+					<TABLE>
+						<tr>
+							<td><b> Name </b></td>
+						    <td><input type="Text" name="Name" value="" ></td>
+					    </tr>
+						<tr>
+							<td><b> Location </b></td>
+						    <td><input type="Text" name="location" value="" ></td>
+					    </tr>
+					    <tr>
+						    <td><b>Hotel Type</b></td>
+					    <td>
+					    	<input type="radio" name="Type" value="5star">5star
+						    <input type="radio" name="Type" value="4star">4star
+						    <input type="radio" name="Type" value="3star">3star
+						    <input type="radio" name="Type" value="2star">2star
+						    <input type="radio" name="Type" value="1star">1star
+					    </td>
+					    </tr>
+
+					    <tr>
+							<td><b> Link </b></td>
+						    <td><input type="url" name="Link" value="" ></td>
+					    </tr>
+					    <tr>
+						
+						    <td>
+						    	
+						    	<input type="submit" name="Add" value="Add">
+						    </td>
+					    </tr>
+					</TABLE>
+			</fieldset>
+		</form>
+	</body>
+</html>

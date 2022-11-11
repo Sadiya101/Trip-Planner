@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="../asset/css/Login.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<title>Login</title>
+	</head>
+		<body>
+			<p>
+				<div class="paragraph">
+				    <center><i><b>Enjoy The Travel With</center></b></i>
+				    <center><i><b>Trip Planner</b></i></center>
+					
+				</div>
+			</p>
+		<div class="container">
+		<div class="login-details">
+     	<div class="header">
+     		<center><h1>Sign In</h1>
+        </div>
+			<form id="form" method="post" action="../controller/Check_Login.php" onsubmit=" return validateForm()" enctype="" align="right" >
+				<center><table>
+				<tr>
+				<div class="inputFeild">	
+					<td><label  for="username"  >Name</label></td>
+					<td><input id="username" type="Text" name="name" value="" onkeyup="nameCheck()"></td>
+            		<span id="errName"></span>
+				</div>
+				</tr>
+				<h2><small></small></h2>
+
+				<tr>
+				<div class="inputFeild">
+					<td><label  for="password">Password</label></td>
+					<td><input  id="password" type="Password" name="Password" value="" on onkeyup="passCheck()" ></td>
+            		<p id="errPass" class="error"></p>
+                </div>
+                </tr>
+                <h2><small></small></h2>
+                <tr>
+                	<td> 
+					<button id="loginbutton" type="submit" name="Login" value="submit">Sign In</button>
+					<a href="#"  class="forgot-password">Forgot password?</a>
+					<center><small>Don't have an account?
+		            <a id="signupbutton"  href="Signup.html" class="sign-up">  SignUp</a>
+		        </small>
+		    </center>
+		            </td>
+		            </tr>
+		            </table>
+		            </center>		
+			</form>
+		</div>
+	</div>
+	<script src="../asset/js/Login.js"></script>
+</body>
+</html

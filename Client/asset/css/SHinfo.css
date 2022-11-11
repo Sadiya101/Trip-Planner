@@ -1,0 +1,91 @@
+a{
+    display: block;
+}
+body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 98vh;
+        flex-direction: column;
+        background-image: linear-gradient(rgb(103 78 78 / 45%), rgb(24 13 13 / 56%)),
+        url(background-ppt-white-shades.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+form {
+  margin-top: 100px;
+}
+.container {
+  background-color: rgb(0 0 0 / 34%);
+  padding: 0px 15px 20px 20px;
+  height: 300px;
+  width: 400px;
+  display: flex;
+}
+.header h1 {
+  font-family: "Supreme";
+  color: rgb(6, 1, 1);
+  align-content: center;
+  left: 800px;
+  bottom: 600px;
+  /* padding: 0px 20px 20px 80px; */
+  font-size: 30px;
+}
+span {
+  position: absolute;
+  bottom: 340px;
+  left: 900px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+
+i.fa-square-check{
+color: rgb(79, 218, 139);
+  
+}
+ p{
+  font-family: "Supreme";
+  position: center ;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+}
+input {
+  width: 60%;
+  padding: 2px 0px 5px 10px;
+  border-radius: 5px;
+  font-family: "Supreme";
+  font-size: 15px;
+  margin: 5px 0;
+  border-color: transparent;
+}
+a{
+    font-family: "Supreme";
+    font-size: 18px;
+    color: rgb(88, 17, 81);
+}
+input:focus {
+  outline: none;
+}
+
+button {
+    
+  text-align: justify;
+  width: 25%;
+  height: 25px;
+  display: inline-block;
+  padding: 0px 0px 8px 10px;
+ font-family: "Supreme";
+  font-size: 15px;
+  font-weight: 520;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  color:#FED8B1;
+  border-color: #fff;
+  background-color: transparent;
+}

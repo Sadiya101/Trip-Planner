@@ -1,0 +1,157 @@
+a{
+    display: block;
+}
+body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 98vh;
+        flex-direction: column;
+        background-image: linear-gradient(rgb(103 78 78 / 45%), rgb(24 13 13 / 56%)),
+        url(240_F_168806952_APAseyY84QcFtZb1y4GZ3T6hNL9q3I14.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+form {
+  margin-top: 100px;
+}
+.container {
+  background-color: rgb(0 0 0 / 34%);
+  height: 600px;
+  width: 120%;
+   /* padding: 0px 15px 10px 20px; */
+  /* height: 300px;
+  width: 400px; */
+  display: flex;
+}
+.header h1 {
+  font-family: "Supreme";
+  color: #fff;
+  bottom: 500px;
+  align-content: center;
+  padding: 0px 20px 20px 30px;
+  font-size: 25px;
+}
+.header h3 {
+    font-family: "Supreme";
+    color: #fff;
+    /* bottom: 500px; */
+    /* align-content: ; */
+    padding: 0px 20px 20px 30px;
+    font-size: 20px;
+  }
+span {
+  position: absolute;
+  bottom: 340px;
+  left: 900px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+label {
+    padding: 0px 20px 10px 30px;
+    font-family: "Supreme";
+    font-size: 17px;
+    color: #fff;
+    display: block;
+}
+i.fa-square-check{
+color: rgb(79, 218, 139);
+  
+}
+p{
+    width: 15%;
+    margin-right: 60px;
+    font-family: "Supreme";
+    font-size: 17px;
+    color: #fff;
+    display: flex;
+}
+.contents{
+    margin-right: 150px;
+
+}
+
+input {
+  width: 60%;
+  align-items: center;
+  /* padding: 2px 0px 5px 20px; */
+  border-radius: 5px;
+  font-family: "Supreme";
+  font-size: 15px;
+  margin: 5px 0;
+  border-color: transparent;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+    
+  text-align: justify;
+  width: 40%;
+  height: 25px;
+  margin-left: 50px;
+  display: inline-block;
+  padding: 0px 0px 8px 10px;
+ font-family: "Supreme";
+  font-size: 15px;
+  font-weight: 520;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  color:#FED8B1;
+  border-color: #fff;
+  background-color: transparent;
+}
+.Uname 
+{
+  position: absolute;
+  bottom: 470px;
+  left: 902px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+.Email 
+{
+  position: absolute;
+  bottom: 435px;
+  left: 902px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+.Con 
+{
+  position: absolute;
+  bottom: 395px;
+  left: 902px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+.Hname 
+{
+  position: absolute;
+  bottom: 270px;
+  left: 902px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+.Room 
+{
+  position: absolute;
+  bottom: 195px;
+  left: 902px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
+.Cost 
+{
+  position: absolute;
+  bottom: 110px;
+  left: 902px;
+  color: rgb(245, 54, 54);
+  font-size: 13px;
+}
